@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapping</title>
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div class="nav-logo">
+            <p>LOGO</p>
+        </div>
+        <div class="nav-menu">
+            <p>Menu 1</p>
+            <p>Menu 2</p>
+            <p>Menu 3</p>
+        </div>
+    </div>
+
+    <!-- Kategorier Section -->
+    <div class="kategorier">
+        <div class="card-container">
+            <div class="card card-1"></div>
+            <button class="btn">Voksen</button>
+        </div>
+        <div class="card-container">
+            <div class="card card-2"></div>
+            <button class="btn">Ung</button>
+        </div>
+        <div class="card-container">
+            <div class="card card-3"></div>
+            <button class="btn">Barn</button>
+        </div>
+    </div>
+
+    <!-- Map and Kommune Selection Section -->
+    <div class="container">
+        <h1>Vælg din Kommune</h1>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7563.233004495141!2d12.559082564977341!3d55.69659152095331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252ff49e487cd%3A0x161ad1caf655015a!2sRiget!5e0!3m2!1sen!2sdk!4v1729582364280!5m2!1sen!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a href="#" class="button">Se I google maps</a>
+    </div>
+
+    <!-- Cards Section -->
+    <h1 class="cards-heading">Hvad søger du hjælp til?</h1>
+    <div class="cards-container">
+        <div class="card">
+            <h2>Depression</h2>
+            <p>En vedvarende tilstand af tristhed, håbløshed og manglende interesse for aktiviteter, som normalt ville være behagelige. Depression kan påvirke søvn, appetit og generel energi, og kan føre til både fysiske og følelsesmæssige problemer.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+        <div class="card">
+            <h2>Angstlidelse</h2>
+            <p>En tilstand, der kendetegnes ved overdreven bekymring, nervøsitet og frygt, ofte i situationer hvor truslen ikke er proportionel med angsten. Symptomer kan omfatte panikanfald, tvangstanker og fysiske reaktioner som hurtig puls og sved.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+        <div class="card">
+            <h2>Skizofreni</h2>
+            <p>En alvorlig psykisk lidelse, hvor en person har svært ved at skelne mellem virkelighed og fantasi. Symptomer inkluderer hallucinationer (f.eks. høre stemmer), vrangforestillinger og uorganiseret tankegang.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+        <div class="card">
+            <h2>Bipolar lidelse</h2>
+            <p>En sygdom, der er præget af ekstreme humørsvingninger fra mani (ekstrem opstemthed og overaktivitet) til depression (dyb nedtrykthed). Humørsvingningerne kan være intense og uforudsigelige.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+        <div class="card">
+            <h2>Tvangslidelse (OCD)</h2>
+            <p>En angstlidelse kendetegnet ved tilbagevendende tvangstanker (obsessioner) og tvangshandlinger (kompulsioner), som individet føler sig tvunget til at udføre for at reducere angst eller forhindre en frygtet begivenhed.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+        <div class="card">
+            <h2>Posttraumatisk stresslidelse (PTSD)</h2>
+            <p>En psykisk lidelse, der kan opstå efter en person har oplevet eller været vidne til en traumatisk begivenhed. Symptomer omfatter flashbacks, mareridt, intens angst og undgåelse af situationer, der minder om traumet.</p>
+            <a href="#" class="button">Læs mere</a>
+        </div>
+    </div>
+    <div class="main-container">
+
+        <!-- Div 1: Contact Info Section -->
+        <div class="row">
+            <div class="div1">
+                <h3>NAVN</h3>
+                <p>Ventetid: Under 1 minut</p>
+                <p>Kontakt: 91921941</p>
+            </div>
+
+            <!-- Div 2: Psychologist Specializations -->
+            <div class="div2">
+                <ul class="specializations">
+                    <li>Anxiety Therapy</li>
+                    <li>Couples Counseling</li>
+                    <li>Depression Management</li>
+                    <li>Grief Counseling</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Div 3: Booking Calendar Section -->
+        <div class="main-container">
+            <!-- Calendar Box -->
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <h3 id="current-month">October 2024</h3>
+                    <button id="prev-month">Prev</button>
+                    <button id="next-month">Next</button>
+                </div>
+                <div class="calendar">
+                    <!-- Dates dynamically generated by JS -->
+                    <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+                    <!-- Calendar dates here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./asset/script.js"></script>
+</html>
